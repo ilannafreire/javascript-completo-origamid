@@ -23,7 +23,14 @@ console.log(typeof null); // Retorna "object" (por motivos históricos do JavaSc
 
 
 // String 
+// Você pode somar uma string e assim concatenar as palavras
 
 var nome = 'Pedro';
 var sobrenome = 'Sálvia';
 var nomeCompleto = nome + ' ' + sobrenome;
+
+
+// Você pode somar números com strings, o resultado final é sempre uma string
+
+var gols = 1000;
+var frase = 'Romário fez ' + gols + ' gols';
