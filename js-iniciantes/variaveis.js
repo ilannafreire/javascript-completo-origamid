@@ -26,3 +26,11 @@ var nome = 'Julia';
 var nome = 'Casimiro',
     idade = 25,
     possuiFaculdade = true;
+
+// SEM VALOR
+
+// Pode declarar ela e não atribuir valor inicialmente
+
+var precoAplicativo;
+// retorna undefined
+
