@@ -12,3 +12,8 @@ var preco = 20;
 var totalComprado = 5;
 var precoTotal = preco * totalComprado;
 
+// Sintaxe 
+
+// Palavra chave var seguida do nome, sinal de igual e o valor.
+
+var nome = 'Julia';
