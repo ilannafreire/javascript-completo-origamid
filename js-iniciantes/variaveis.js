@@ -50,13 +50,20 @@ var precoAplicativo;
 
 // Inválido 
 
-var  §nome;
-var  function;
-var 1possuiFaculdade;
+//var  §nome;
+//var  function;
+//var 1possuiFaculdade;
 
 // Válido 
 
 var $selecionar;
 var _nome;
 var possuiFaculdadeNoExterior;
+
+
+// Declarar 
+// Erro ao tentar utilizar uma variável que não foi declarada.
+
+console.log(nome);
+// retorna nome is not defined
     
