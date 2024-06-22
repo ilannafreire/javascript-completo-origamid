@@ -67,3 +67,14 @@ var possuiFaculdadeNoExterior;
 console.log(nome);
 // retorna nome is not defined
     
+
+// Hoisting
+// São movidos para acima do código, porém o valor atribuído não é movido
+
+console.log(nome);
+var nome = 'Priscila';
+// Retorna undefined
+
+var profissao = 'Engenheira de Software';
+console.log(profissao);
+// Retorna Engenharia de Software
