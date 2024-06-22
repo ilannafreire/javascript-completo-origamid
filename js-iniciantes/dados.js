@@ -11,4 +11,12 @@ var novoObjeto = {} // Object
 
 // Primitivos são dados imutáveis. 
 
+// Verificar tipo de dado
+
+var nome = 'Julia';
+console.log(typeof nome);
+// retorna string 
+
+typeof null // retorna object
+
 
