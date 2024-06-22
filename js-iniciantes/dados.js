@@ -34,3 +34,11 @@ var nomeCompleto = nome + ' ' + sobrenome;
 
 var gols = 1000;
 var frase = 'Romário fez ' + gols + ' gols';
+
+// Aspas duplas, simples e templates string
+
+'JavaScript é "super" fácil';
+"JavaScript é 'super' fácil";
+"JavaScript é \"super\" fácil";
+'JavaScript é "super" fácil"';
+"JavaScript é "super" fácil"; // Inválido
