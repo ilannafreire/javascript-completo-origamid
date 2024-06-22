@@ -23,9 +23,9 @@ var nome = 'Julia';
 
 // Utilize vírgula para criar mais de uma variável, sem repetir a palavra chave var.
 
-var nome = 'Casimiro',
-    idade = 25,
-    possuiFaculdade = true;
+var nome = 'Casimiro';
+    //idade = 25,
+    //possuiFaculdade = true;
 
 // SEM VALOR
 
@@ -34,3 +34,29 @@ var nome = 'Casimiro',
 var precoAplicativo;
 // retorna undefined
 
+
+// Nome
+
+// Podem iniciar com  $, _, ou letras
+// Podem conter números mas não iniciar com eles
+
+// Case sensitive
+// nome é diferente de Nome
+
+// Não utilizar palavras reservadas do js
+
+// Camel case
+// É comum nomearmos assim: abrirModal 
+
+// Inválido 
+
+var  §nome;
+var  function;
+var 1possuiFaculdade;
+
+// Válido 
+
+var $selecionar;
+var _nome;
+var possuiFaculdadeNoExterior;
+    
