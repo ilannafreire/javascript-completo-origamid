@@ -77,4 +77,25 @@ var nome = 'Priscila';
 
 var profissao = 'Engenheira de Software';
 console.log(profissao);
-// Retorna Engenharia de Software
+// Retorna Engenharia de Software 
+
+
+// Mudar o valor atribuído 
+
+/* É possível mudar os valores atribuídos a variáveis declaradas
+com var e let. Mas não é possível modificar os valores das declaradas.
+*/ 
+
+
+
+var ano = 1970;
+ano = 1996;
+
+let preco = 50;
+preco = 25;
+
+const temFaculdade = true;
+temFaculdade = false;
+
+// retorna um erro
+
