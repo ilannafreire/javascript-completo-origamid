@@ -17,3 +17,12 @@ var precoTotal = preco * totalComprado;
 // Palavra chave var seguida do nome, sinal de igual e o valor.
 
 var nome = 'Julia';
+
+
+// Vírgula
+
+// Utilize vírgula para criar mais de uma variável, sem repetir a palavra chave var.
+
+var nome = 'Casimiro',
+    idade = 25,
+    possuiFaculdade = true;
