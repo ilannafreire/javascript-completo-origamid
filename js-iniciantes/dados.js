@@ -41,4 +41,6 @@ var frase = 'Romário fez ' + gols + ' gols';
 "JavaScript é 'super' fácil";
 "JavaScript é \"super\" fácil";
 'JavaScript é "super" fácil"';
-"JavaScript é "super" fácil"; // Inválido
+//"JavaScript é "super" fácil"; // Inválido
+
+// Não necessariamente precisamos atribuir valores a uma variável.
