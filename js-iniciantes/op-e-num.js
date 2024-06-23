@@ -27,3 +27,10 @@ var divisao = 'Comprei 10' / 2; // NaN (Not a Number)
 
 // É possível verificar se uma variável é NaN ou 
 // não com a função isNaN()
+
+// NAN = NOT A NUMBER
+
+var numero = 80;
+var unidade = 'kg';
+var peso = numero + unidade; // '80kg'
+var pesoPorDois = peso / 2 // NaN (Not a Number)
