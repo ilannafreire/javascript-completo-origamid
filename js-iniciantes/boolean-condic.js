@@ -61,3 +61,21 @@ switch (corFavorita) {
  default:
     console.log('Feche os olhos');      
 }
+
+
+// Truthy e Falsy
+
+/* Existem valores que retornam true e outros que retornam
+false quando verificados em uma expressão booleana.
+*/
+
+// Falsy
+
+if(false)
+    if(0) // ou -0
+    if(NaN)
+    if(null)
+    if(undefined)
+    if(''); // ou "" ou ``
+
+// todo o resto é truthy    
