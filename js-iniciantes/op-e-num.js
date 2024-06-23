@@ -59,4 +59,19 @@ console.log(incremento2); // 6
 // Mesma coisa para o decremento --x
 
 
+// Operadores aritméticos unários
 
+/* O + e - tenta transformar o valor seguinte em número
+*/
+
+var frase = 'Isso é um teste';
++frase; // NaN
+-frase; // NaN
+
+var idade = '28';
++idade; // 28(número)
+-idade; // -28(número)
+console.log(+idade + 5); // 33
+
+var possuiFaculdade = true;
+console.log(+possuiFaculdade); // 1
