@@ -79,3 +79,13 @@ if(false)
     if(''); // ou "" ou ``
 
 // todo o resto é truthy    
+
+// Truthy
+
+if(true)
+    if(1)
+    if(' ')
+    if('andre')
+    if(-5)
+    if({});
+    
