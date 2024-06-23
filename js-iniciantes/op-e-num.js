@@ -45,3 +45,18 @@ var total3 = 20 / 2 * 5; // 50
 var total4 = 10 + 10 * 2 + 20 / 2; // 40
 
 // Parênteses para priorizar uma expressão
+
+// Operadores aritméticas unários
+
+var incremento = 5;
+console.log(incremento++); // 5
+console.log(incremento); // 6
+
+var incremento2 = 5;
+console.log(++incremento2); // 6
+console.log(incremento2); // 6
+
+// Mesma coisa para o decremento --x
+
+
+
