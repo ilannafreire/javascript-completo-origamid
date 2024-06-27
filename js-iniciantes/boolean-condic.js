@@ -98,12 +98,13 @@ if(true)
 
 // Truthy
 
-if(!true) //false
-if(!1) // false
-if(!'') // true
-if(!underfined) //true
-if(!!' ') // true
-if(!!'') // false
+    if(!true) //false
+    if(!1) // false
+    if(!'') // true
+    if(!underfined) //true
+    if(!!' ') // true
+    if(!!'') // false
 
 // Dica: você pode compartilhar o !! para verificar se uma expressão é Truthy ou Falsy
+
 
