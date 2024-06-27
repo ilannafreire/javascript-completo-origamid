@@ -145,3 +145,17 @@ o tipo de dado deve ser o mesmo quando usamos.
 /* Se ambos os valores forem true ele irá retornar o último valor verificado
 Se algum valor for false ele retornará o mesmo e não retornará a verificar os próximos.
 */     
+
+// Operadores lógicos ||
+   
+/* || Compara se uma expressão ou outra é verdadeira.
+*/
+     true || true; // true
+     true || false; // true
+     false || true; // true
+     'Gato' || 'Cão'; // 'Gato
+     (5 - 5) || (5 + 5); // 10
+     'Gato' || false; // Gato
+     (5 >=5) || (3 < 6); // true
+     
+// Retorna o primeiro valor true que encontrar.
