@@ -32,3 +32,20 @@ areaQuadrado(2) // 4
  /* Separar por uma vírgula cada parâmetro. Você pode redefinir mais de um
  parâmetro ou nenhum também.
  */
+
+ // PARÊNTESES EXECUTA A FUNÇÃO
+
+ function corFavorita(cor) {
+    if(cor === 'azul') {
+      return 'Você gosta do céu';
+    } else if(cor === 'verde') {
+      return 'Você gosta de mato';
+    } else {
+      return 'Você não gosta de nada';
+    }
+  }
+  corFavorita(); // retorna 'Você não gosta de nada'
+
+  /* Se apenas definimos a função como o function e não executarmos a mesma,
+  nada que estiver dentro dela vai acontecer.
+  */
