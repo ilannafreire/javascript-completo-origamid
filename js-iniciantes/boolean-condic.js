@@ -108,3 +108,12 @@ if(true)
 // Dica: você pode compartilhar o !! para verificar se uma expressão é Truthy ou Falsy
 
 
+// Operadores de comparação
+
+// Vão sempre retornar um valor booleano
+
+    10 > 5; // true
+    5 > 10; // false
+    20 < 10; // false
+    10 <= 10 // true
+    10 >= 11 // false 
