@@ -129,3 +129,19 @@ o tipo de dado deve ser o mesmo quando usamos.
     10 === 10 // true 
     10 != 15 // true
     10 !== '10' // true 
+
+// Operadores lógicos &&
+
+// && Compara se uma expressão e a outra é verdadeira.
+    
+     true && true; // true
+     true && false; // false
+     false && true; // false
+     'Gato' && 'Cão'; // false
+     (5 - 5) && (5 + 5); // 0
+     'Gato' && false;  // false
+     (5 <= 5) && (3 < 6); // true
+
+/* Se ambos os valores forem true ele irá retornar o último valor verificado
+Se algum valor for false ele retornará o mesmo e não retornará a verificar os próximos.
+*/     
