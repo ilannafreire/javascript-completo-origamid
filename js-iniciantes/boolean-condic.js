@@ -89,3 +89,21 @@ if(true)
     if(-5)
     if({});
     
+
+// Operador lógica de negação.
+
+/* O operador !, nega uma posição booleana. Ou seja, 
+ !true é igual a false.
+*/
+
+// Truthy
+
+if(!true) //false
+if(!1) // false
+if(!'') // true
+if(!underfined) //true
+if(!!' ') // true
+if(!!'') // false
+
+// Dica: você pode compartilhar o !! para verificar se uma expressão é Truthy ou Falsy
+
