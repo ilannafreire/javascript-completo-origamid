@@ -49,3 +49,20 @@ areaQuadrado(2) // 4
   /* Se apenas definimos a função como o function e não executarmos a mesma,
   nada que estiver dentro dela vai acontecer.
   */
+
+  // Argumentos podem ser funções
+  /* Callback - geralmente são funções que ocorrem após algum evento
+  */
+
+ addEventListener('click', function(){
+   console.log('Clicou');
+ });
+
+ /* A função possui dois argumentos
+ Primeiro é a string 'click'
+ Segundo é uma função anônima.
+ */
+
+ /* Funções anônimas são aquelas em que o nome da função não é definido,
+ escritas como function(){} ou () => {}
+ */
