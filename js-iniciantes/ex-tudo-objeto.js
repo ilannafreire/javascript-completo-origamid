@@ -7,10 +7,10 @@
 
 
 // Propriedades e métodos de strings
-var str = "Olá, Mundo!";
-console.log(str.length);          // Saída: 11
-console.log(str.toUpperCase());   // Saída: "OLÁ, MUNDO!"
-console.log(str.substring(0, 5)); // Saída: "Olá,"
+var str = "The only thing that separates women of color from anyone else is opportunity.";
+console.log(str.length);         
+console.log(str.toUpperCase());   
+console.log(str.substring(0, 5));
 
 // Propriedades e métodos de elementos do DOM
 var elemento = document.querySelector('div');
@@ -19,7 +19,7 @@ elemento.addEventListener('click', function() {
   console.log('Elemento clicado!');
 });
 elemento.classList.add('ativo');
-elemento.style.color = 'blue';
+elemento.style.color = 'red';
 console.log(elemento.getAttribute('id'));
 
 // Interação com o clipboard
