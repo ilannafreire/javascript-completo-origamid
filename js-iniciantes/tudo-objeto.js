@@ -20,3 +20,15 @@ var altura = 1.8;
 altura.toString(); // '1.8'
 altura.toFixed(); // '2'
 
+// Funções
+
+function areaQuadrado(lado) {
+    return lado * lado;
+}
+
+areaQuadrado.toString();
+//"function areaQuadrado(lado) {
+//   return lado * lado;
+//}"
+
+areaQuadrado.length; // 1
