@@ -13,3 +13,10 @@ nome; // 'Ilanna'
 
 // Uma string herda propriedades e métodos do construtor String()
 
+// Números
+
+var altura = 1.8;
+
+altura.toString(); // '1.8'
+altura.toFixed(); // '2'
+
